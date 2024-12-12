@@ -1,6 +1,7 @@
 jobs:
   metrics:
     name: Metrics
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: GitHub metrics as SVG image
