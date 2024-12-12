@@ -26,5 +26,5 @@ name: Metrics
     branches:
       - master
   schedule:
-    - cron: 0 0 * * *
+    - cron: 5 10 * * *
   workflow_dispatch: null
